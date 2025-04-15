@@ -38,7 +38,7 @@ clickhouse-flatfile-ingestion/
 ├── frontend/             # React + Vite frontend
 │   ├── src/
 │   └── vite.config.js
-├── prompts.txt           # (Optional) AI prompts used
+├── prompts.txt           # AI prompts used
 └── README.md             # Documentation
 ```
 
@@ -139,10 +139,6 @@ clickhouse-flatfile-ingestion/
 
 ---
 
-## 🧪 Testing Guide
-
-Use official ClickHouse example datasets:
-📦 https://clickhouse.com/docs/en/getting-started/example-datasets
 
 ### ✅ Test Cases
 
@@ -170,28 +166,6 @@ Use official ClickHouse example datasets:
 - Ensure your ClickHouse is running locally (via Docker or locally installed)
 - Use ports `8123` or `9000` as applicable
 - Use a valid JWT token (pass it in headers)
-
----
-
-## 📥 AI Tools Usage
-
-> If AI tools like ChatGPT or Copilot were used:
-
-- Add a `prompts.txt` file to your repo with prompts used.
-- Example:
-  ```
-  Prompt: How to authenticate ClickHouse with JWT in Java?
-  Prompt: How to stream CSV data into ClickHouse using Spring Boot?
-  ```
-
----
-
-## 📦 Deliverables
-
-- ✅ Full Source Code (Frontend & Backend)
-- ✅ README.md with detailed instructions
-- ✅ prompts.txt file (if AI tools used)
-- ✅ (Optional) Demo video or screenshots
 
 ---
 
